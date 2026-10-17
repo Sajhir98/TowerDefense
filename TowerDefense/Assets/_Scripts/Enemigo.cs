@@ -7,10 +7,20 @@ public class Enemigo : MonoBehaviour
 {
     public GameObject objetivo;
     public int vida = 50;
-    public int dano = 10;
+    public int dano = 5;
 
     public Animator Anim;
     private NavMeshAgent agente;
+
+    private void OnEnable()
+    {
+        objetivo = GameObject.Find("Objetivo");
+    }
+
+    private void OnDisable()
+    {
+        
+    }
 
     void Start()
     {
