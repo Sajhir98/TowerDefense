@@ -9,6 +9,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 99c132ce9a3331341ab82922fc06aa65, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 99c132ce9a3331341ab82922fc06aa65, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 99c132ce9a3331341ab82922fc06aa65, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 99c132ce9a3331341ab82922fc06aa65, type: 3}
       propertyPath: m_LocalPosition.x
       value: -552.96
       objectReference: {fileID: 0}
@@ -51,6 +63,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 99c132ce9a3331341ab82922fc06aa65, type: 3}
       propertyPath: m_Name
       value: Enemigo 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 99c132ce9a3331341ab82922fc06aa65, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 99c132ce9a3331341ab82922fc06aa65, type: 3}
       propertyPath: m_Controller
@@ -120,6 +136,9 @@ MonoBehaviour:
   objetivo: {fileID: 0}
   vida: 50
   dano: 10
+  recursosGanados: 200
+  referenciaAdminJuego: {fileID: 0}
+  referenciaSpawner: {fileID: 0}
   Anim: {fileID: 3112976181754002425}
 --- !u!136 &7181887633591255092
 CapsuleCollider:
