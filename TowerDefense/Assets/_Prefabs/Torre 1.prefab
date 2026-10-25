@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 665442663743217016}
+  - component: {fileID: 7673944150022032129}
   m_Layer: 0
   m_Name: Torre 1
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.26, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 239190642967702928}
@@ -34,6 +35,22 @@ Transform:
   - {fileID: 2155750595340183868}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7673944150022032129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3442255841664474729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513d07b9bc8f604489576874011888cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigo: {fileID: 0}
+  prefabBala: {fileID: 3795690138048342634, guid: 065ce71bf02961e4d865fd4406c5471b, type: 3}
+  puntasCanon:
+  - {fileID: 8950850562650896342}
 --- !u!1 &3694645025758596036
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +190,7 @@ Transform:
   m_Children:
   - {fileID: 2152426098125249105}
   - {fileID: 4798291921324247320}
+  - {fileID: 3490024597282922623}
   m_Father: {fileID: 665442663743217016}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6515201621689676936
@@ -565,3 +583,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8950850562650896342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3490024597282922623}
+  m_Layer: 0
+  m_Name: PuntaCanon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3490024597282922623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8950850562650896342}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.4300001, z: 2.8999999}
+  m_LocalScale: {x: 1.4285711, y: 1, z: 1.4285715}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2155750595340183868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
